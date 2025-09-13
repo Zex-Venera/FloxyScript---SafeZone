@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+
+#safezone-icon {
+    position: absolute;
+    bottom: 22%;
+    right: 96%;
+    font-size: 32px;
+    color: #ffffffff;
+    display: none;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
